@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:web.archive.org)",
+      "Bash(curl -sk https://web.archive.org/web/20250321170500/https://www.kalemah.org/faqeid24/)",
+      "Bash(ls kalemah-eid25.html *.png *.jpg *.jpeg *.svg *.webp)",
+      "Bash(base64 -w0 \"WhatsApp Image 2026-03-14 at 17.54.33.jpeg\")",
+      "mcp__claude_ai_Webflow__element_builder"
+    ]
+  }
+}
